@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	background-color: rgb(248, 245, 220);
+	margin: 0 auto;
+	width: 840px;
+	/*border: 3px solid cornflowerblue;*/
+	padding: 0 2em 1em;
+}
+main {
+	margin-top: 120px;
+}
+h1 {
+	font-size: 200%;
+	color: black;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+div {
+	margin-bottom: 1em;
+}
+label {
+	font-size: 140%;
+}
+input {
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+input[type="text"],
+textarea {
+	margin-top: 3px;
+	width: 20.5em;
+	padding: 5px 10px;
+	font-size: 105%;
+}
+textarea {
+	width: 100%;
+}
+input[type="button"] {
+	width: 22em;
+	color: white;
+	border: 1px solid rgb(98, 216, 87);
+	background-color: rgba(23, 104, 12, 0.912);
+	border-radius: 10px;
+	padding: 8px 0px;
+	letter-spacing: 1px;
+	font-size: 105%;
+}
+#tasks {
+	margin-top: 0;
+	float: right;
+}
+small {
+	text-align: center;
+	font-size: 85%;
+	color: rgb(88, 88, 88);
+}
